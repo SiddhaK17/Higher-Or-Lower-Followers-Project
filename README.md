@@ -31,7 +31,7 @@ Whether you’re a budding developer refining your skills or someone exploring c
 - 🧱 **Data Handling** – Effectively manipulates dictionaries and lists to store, retrieve, and display structured celebrity data.
 - 📜 **String Interpolation** – Dynamic message generation using `f-strings` to personalize game feedback in real time.
 - 🎨 **ASCII Art Integration** – Enhances CLI experience with visually engaging splash screens and separators stored in a separate module.
-- 🚀 **Beginner-Friendly Design** – Designed with educational value, simulating real world development patterns in a simplified environment.
+- 🚀 **Beginner Friendly Design** – Designed with educational value, simulating real world development patterns in a simplified environment.
 
 ---
 
@@ -43,7 +43,7 @@ Whether you’re a budding developer refining your skills or someone exploring c
 - 👥 **Dynamic Comparisons** – Players compare two random personalities/brands based on hidden follower counts.
 - 📈 **Score Progression** – Each correct guess increases the player’s score, providing feedback and a sense of achievement.
 - 🧠 **Deductive Reasoning** – Players are challenged to infer who’s more popular based on their own knowledge of the figures.
-- 🧹 **Duplicate Prevention** – Built-in logic ensures two different entities are always compared therefore avoiding redundant or broken comparisons.
+- 🧹 **Duplicate Prevention** – Built in logic ensures two different entities are always compared therefore avoiding redundant or broken comparisons.
 - 🎯 **Guess Evaluation System** – Validates player input against real data, then provides context aware feedback using formatted strings.
 - 🖼️ **Visual Consistency** – Each round displays consistent visual structure (Compare A → VS → Compare B), enhancing user cognition.
 - 🚫 **Game Termination** – The game exits gracefully on a wrong answer, clearly displaying the final score for closure.
