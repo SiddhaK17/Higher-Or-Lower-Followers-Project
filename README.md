@@ -54,7 +54,7 @@ Whether you’re a budding developer refining your skills or someone exploring c
 ## 🧱 Project Structure
 
 ```
-higher-or-lower-followers-project/
+Higher-Or-Lower-Followers-Project/
     ├── main.py         # Core game logic and main script
     ├── art.py          # Contains ASCII art used in the game
     └── game_data.py    # Dataset of influencers and their details
@@ -68,12 +68,12 @@ higher-or-lower-followers-project/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/higher-or-lower-followers-project.git
+   git clone https://github.com/your-username/Higher-Or-Lower-Followers-Project.git
    ```
 
 2. **Navigate to the project folder**
    ```bash
-   cd higher-or-lower-followers-project
+   cd Higher-Or-Lower-Followers-Project
    ```
 
 3. **Run the script**
