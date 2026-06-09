@@ -37,9 +37,9 @@ while game_should_continue:
     while account_a == account_b:
         account_b = random.choice(data)
 
-    print(f"Compare A: {format_data(account_a)}.")
+    print(f"Compare A: {format_data(account_a)}")
     print(vs)
-    print(f"Against B: {format_data(account_b)}.")
+    print(f"Against B: {format_data(account_b)}")
 
     # Ask user for a guess.
     while True:
@@ -65,9 +65,9 @@ while game_should_continue:
     # score keeping.
     if is_correct:
         score += 1
-        print(f"You're right! Current score {score}\n")
+        print(f"You're right! Current score: {score}\n")
     else:
-        print(f"Sorry, that's wrong. Final score: {score}.")
+        print(f"Sorry, that's wrong. Final score: {score}")
         game_should_continue = False
 
 
