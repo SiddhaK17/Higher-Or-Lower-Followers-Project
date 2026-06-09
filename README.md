@@ -12,7 +12,7 @@ Inspired by real world decision making and developed as a hands on challenge whi
 > *Guess who has a higher follower count between two randomly chosen public figures or brands.*
 
 With every correct answer, the score increases. And with one wrong guess, it’s game over.  
-This project emphasizes structured programming practices, modular code design, and data driven logic, all within a clean and engaging text based UI.  
+This project demonstrates how **structured datasets**, **decision making algorithms**, **randomized game logic**, and **user interaction** can be combined to create an engaging command line experience.
 It offers a great example of how fundamental programming skills can be applied to build interactive and replayable software experiences using Python.
 
 Whether you’re a budding developer refining your skills or someone exploring creative ways to practice coding, this game serves as an ideal project to solidify core Python concepts.
@@ -24,14 +24,14 @@ Whether you’re a budding developer refining your skills or someone exploring c
 > This project goes beyond basic scripting by showcasing foundational and intermediate Python development principles through an engaging CLI game.
 
 - ⚙️ **Python 3.x** – The entire game is built using Python, emphasizing structured scripting and modularity.
-- 🧩 **Modular Programming** – The codebase is split into multiple files (`main.py`, `art.py`, `game_data.py`) promoting clarity, reuse, and maintainability.
+- 🧩 **Modular Programming & Separation of Concerns** – The project is organized into dedicated modules (`main.py`, `art.py`, `game_data.py`), ensuring clean code organization, improved maintainability, and easier future expansion.
 - 🔁 **Control Flow & Decision Logic** – Implements conditional statements (`if`, `else`) and loops to manage user input and game progression.
 - 🎯 **Function Design** – Key logic is encapsulated in reusable functions like `format_data()` and `check_answer()` to enforce clean, testable code.
 - 🎲 **Randomization** – Uses Python’s `random.choice()` for dynamic, unpredictable entity selection critical for replayability.
 - 🧱 **Data Handling** – Effectively manipulates dictionaries and lists to store, retrieve, and display structured celebrity data.
 - 📜 **String Interpolation** – Dynamic message generation using `f-strings` to personalize game feedback in real time.
 - 🎨 **ASCII Art Integration** – Enhances CLI experience with visually engaging splash screens and separators stored in a separate module.
-- 🚀 **Beginner Friendly Design** – Designed with educational value, simulating real world development patterns in a simplified environment.
+- 🚀 **Professional Programming Foundations** – Demonstrates structured program flow, reusable functions, modular code organization, and clean data handling techniques commonly found in real world applications.
 
 ---
 
@@ -182,6 +182,12 @@ Ensures every round presents fresh, randomized comparisons from a diverse datase
 
 📈 **Score Tracking Mechanism**  
 Maintains and displays the player's score across rounds, encouraging competitive gameplay and personal improvement.
+
+🛡️ **Robust Input Validation**
+Prevents invalid entries by accepting only valid choices (`A` or `B`), ensuring a smoother user experience and reducing the likelihood of unexpected behavior during gameplay.
+
+📊 **Data Driven Game Design**
+All comparisons are powered by a structured dataset of real world personalities, brands, sports organizations, and public figures, demonstrating practical usage of Python dictionaries and list based data management.
 
 🧪 **Modular Codebase**  
 Follows clean separation of concerns using modular files (`main.py`, `game_data.py`, `art.py`) for scalability and maintainability.
