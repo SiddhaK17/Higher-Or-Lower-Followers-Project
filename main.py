@@ -1,4 +1,5 @@
 # Display art
+import os
 from art import logo, vs
 from game_data import data
 import random
@@ -33,7 +34,7 @@ while game_should_continue:
     account_a = account_b
     account_b = random.choice(data)
 
-    if account_a == account_b:
+    while account_a == account_b:
         account_b = random.choice(data)
 
     print(f"Compare A: {format_data(account_a)}.")
@@ -41,10 +42,16 @@ while game_should_continue:
     print(f"Against B: {format_data(account_b)}.")
 
     # Ask user for a guess.
-    guess = input("Who has more followers? Type 'A' or 'B': ").lower()
+    while True:
+        guess = input("Who has more followers? Type 'A' or 'B': ").lower()
+    
+        if guess in ["a", "b"]:
+            break
+    
+        print("Please enter either 'A' or 'B'.")
 
     # Clear the screen
-    print("\n" * 20)
+    os.system("cls" if os.name == "nt" else "clear")
     print(logo)
 
     # - Get follower count of each account
